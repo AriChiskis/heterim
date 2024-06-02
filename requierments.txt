@@ -1,0 +1,12 @@
+pandas
+numpy
+openai==0.28 
+faiss-cpu
+psycopg2
+packaging
+selenium
+Pillow
+webcolors
+openpyxl
+simpledbf
+matplotlib
