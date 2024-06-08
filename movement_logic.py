@@ -263,7 +263,10 @@ def decide_the_kind_of_building(image_path, normal_vector, street_direction, col
     colors_in_center = calculate_color_percentages(image=image)
 
     # Check if yellow is significant in the center of the image
-    if 'body' in colors_in_center and colors_in_center['body'] >= body_threshold:
+    we_in_body = 'body' in colors_in_center and colors_in_center['body'] >= body_threshold
+    we_in_purple_1_line = 'purple_1' in colors_in_center and colors_in_center['purple_1'] >= body_threshold
+    
+    if we_in_body or we_in_purple_1_line:
         # Process the image for the yellow case since yellow is significant
         #step 1
         in_square = check_if_in_square(image=image)
