@@ -1,0 +1,11 @@
+# Dictionary with keys as tuples of color names and values as descriptions, all with each word starting with a capital letter
+color_combinations = {
+    ('Orange', 'Pink Flower', 'Purple', 'Red Flower'): 'Purple Flower In Orange',
+    ('Orange', 'Pink Flower', 'Purple'): 'Purple Flower In Orange',
+    ('Orange', 'Purple', 'Red Flower'): 'Purple Flower In Orange',
+    ('Orange','Purple'): 'Purple In Orange',
+    ('Orange') : 'Orange',
+    ('Orange','Red Flower'): 'Purple Flower In Orange',
+    ('Orange',' Pink Flower'): 'Purple Flower In Orange',
+    
+}

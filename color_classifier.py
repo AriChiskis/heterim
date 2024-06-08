@@ -236,20 +236,20 @@ def apply_kmeans(image, num_clusters):
 
 
 def calculate_color_percentages(image, epsilon=30, scale_factor=0.5, num_clusters=10,crop_width = 400, crop_height = 400):
-    # print("calculating_color_percentages ")
+    print("calculating_color_percentages ")
 
     start_time = time.time()
 
     # Load and process image
     original_image = image.convert('RGB')
 
-    # print("cropping image") 
+    print("cropping image") 
     cropped_image = crop_image_center(original_image,crop_width=crop_width , crop_height=crop_height)
     # scaled_image = downscale_image(original_image, scale_factor)
     # scaled_image.show()
     simplified_image = apply_kmeans(cropped_image, num_clusters)
     # simplified_image.show()
-    # print("kmeaned inage")
+    print("kmeaned inage")
 
   
     width, height = simplified_image.size
@@ -283,7 +283,7 @@ def calculate_color_percentages(image, epsilon=30, scale_factor=0.5, num_cluster
     percentages = {color_name: count / total_pixels for color_name, count in color_map.items()}
 
     end_time = time.time()
-    # print(f"Calculation took {end_time - start_time:.2f} seconds.")
+    print(f"Calculation took {end_time - start_time:.2f} seconds.")
     return percentages
 
 
@@ -304,7 +304,7 @@ def filter_colors_precentage(precentages,trheshhold):
 
 
 if __name__ == "__main__":
-    image_path = '/Users/arielchiskis/Documents/heiterim/streets/רחוב ולנברג ראול/even/28.png'
+    image_path = 'streets/רחוב ולנברג ראול/even/32.png'
     opened_image = image = Image.open(image_path)
     
     image = Image.open(image_path)

@@ -10,3 +10,9 @@ webcolors
 openpyxl
 simpledbf
 matplotlib
+scikit-learn
+opencv-python
+colormath
+beautifulsoup4
+pathlib
+tqdm

@@ -1,0 +1,85 @@
+
+Results for Image Processing:
+----------------------------------
+2א.png:
+{'dominant_colors': {'orange': 0.644}, 'line_colors': {}}
+2ב.png:
+{'dominant_colors': {'orange': 0.644}, 'line_colors': {}}
+2ג.png:
+{'dominant_colors': {'orange': 0.93239375}, 'line_colors': {}}
+4.png:
+{'dominant_colors': {'purple_1': 0.45041875}, 'line_colors': {'purple_1': 0.21394375}}
+6.png:
+{'dominant_colors': {'purple_1': 0.55928125, 'orange': 0.30790625}, 'line_colors': {'purple_1': 0.22578125}}
+8.png:
+{'dominant_colors': {'purple_1': 0.55771875}, 'line_colors': {'purple_1': 0.250625}}
+10.png:
+{'dominant_colors': {'purple_1': 0.55365625, 'maccabi_yellow': 0.35570625}, 'line_colors': {'purple_1': 0.22366875}}
+12.png:
+{'dominant_colors': {'purple_1': 0.5518125, 'maccabi_yellow': 0.3386875}, 'line_colors': {'purple_1': 0.1581375}}
+14.png:
+{'dominant_colors': {'purple_1': 0.55606875}, 'line_colors': {'purple_1': 0.1695125}}
+16.png:
+{'dominant_colors': {'purple_1': 0.555675}, 'line_colors': {'purple_1': 0.3224875}}
+18.png:
+{'dominant_colors': {'purple_1': 0.32868125, 'maccabi_yellow': 0.6017125}, 'line_colors': {'purple_1': 0.34755}}
+20.png:
+{'dominant_colors': {'purple_1': 0.50885625, 'maccabi_yellow': 0.303775}, 'line_colors': {'purple_1': 0.16141875}}
+22.png:
+{'dominant_colors': {'purple_1': 0.514625, 'maccabi_yellow': 0.35575625}, 'line_colors': {'purple_1': 0.09333125}}
+24.png:
+{'dominant_colors': {'purple_1': 0.52275625}, 'line_colors': {'purple_1': 0.1484375}}
+26.png:
+{'dominant_colors': {'purple_1': 0.5580375}, 'line_colors': {'purple_1': 0.2437625}}
+28.png:
+{'dominant_colors': {'purple_1': 0.543925}, 'line_colors': {'purple_1': 0.2136125}}
+30.png:
+{'dominant_colors': {'purple_1': 0.54374375}, 'line_colors': {'purple_1': 0.22275}}
+30א.png:
+{'dominant_colors': {'purple_1': 0.55585625, 'orange': 0.36119375}, 'line_colors': {'purple_1': 0.205225}}
+32.png:
+{'dominant_colors': {'purple_1': 0.5576125, 'orange': 0.3214375}, 'line_colors': {'purple_1': 0.20481875}}
+34.png:
+{'dominant_colors': {'purple_1': 0.5556, 'orange': 0.3608875}, 'line_colors': {'purple_1': 0.2119875}}
+36.png:
+{'dominant_colors': {'purple_1': 0.5563875}, 'line_colors': {'purple_1': 0.58663125}}
+38.png:
+{'orange': 1.0}
+40.png:
+{'dominant_colors': {'purple_1': 0.5621625}, 'line_colors': {'purple_1': 0.15964375}}
+42.png:
+{'dominant_colors': {'purple_1': 0.5624375}, 'line_colors': {'purple_1': 0.2349875}}
+42א.png:
+{'dominant_colors': {'purple_1': 0.561675, 'maccabi_yellow': 0.33429375}, 'line_colors': {'purple_1': 0.1949625}}
+44.png:
+{'dominant_colors': {'purple_1': 0.45664375}, 'line_colors': {'purple_1': 0.4095}}
+44א.png:
+{'dominant_colors': {'purple_1': 0.5143, 'maccabi_yellow': 0.40024375}, 'line_colors': {'purple_1': 0.2213625}}
+46.png:
+{'dominant_colors': {'purple_1': 0.53371875, 'maccabi_yellow': 0.3678}, 'line_colors': {'purple_1': 0.20880625}}
+48.png:
+{'dominant_colors': {'purple_1': 0.53675, 'maccabi_yellow': 0.36468125}, 'line_colors': {'purple_1': 0.31805625}}
+50.png:
+{'dominant_colors': {'purple_1': 0.52024375, 'maccabi_yellow': 0.41856875}, 'line_colors': {'purple_1': 0.22763125}}
+52.png:
+{'dominant_colors': {'purple_1': 0.5245875, 'maccabi_yellow': 0.38975}, 'line_colors': {'purple_1': 0.086325}}
+54.png:
+{'dominant_colors': {'purple_1': 0.538325, 'maccabi_yellow': 0.3297875}, 'line_colors': {'purple_1': 0.33168125}}
+56.png:
+{'dominant_colors': {'purple_1': 0.51460625, 'maccabi_yellow': 0.40305625}, 'line_colors': {'purple_1': 0.2411}}
+58.png:
+{'dominant_colors': {'purple_1': 0.52929375, 'maccabi_yellow': 0.3465375}, 'line_colors': {'purple_1': 0.160625}}
+60.png:
+{'dominant_colors': {'purple_1': 0.56699375}, 'line_colors': {'purple_1': 0.2139}}
+62.png:
+{'dominant_colors': {'purple_1': 0.5518125}, 'line_colors': {'purple_1': 0.21215}}
+64.png:
+{'dominant_colors': {'purple_1': 0.5416125, 'orange': 0.33525625}, 'line_colors': {'purple_1': 0.35086875}}
+66.png:
+{'dominant_colors': {'purple_1': 0.49106875, 'orange': 0.43251875}, 'line_colors': {'purple_1': 0.29736875}}
+68.png:
+{'dominant_colors': {'purple_1': 0.487525, 'orange': 0.4838}, 'line_colors': {'purple_1': 0.23386875}}
+70.png:
+{'dominant_colors': {'purple_1': 0.4699, 'orange': 0.43381875}, 'line_colors': {'purple_1': 0.1255875}}
+72.png:
+{'dominant_colors': {'purple_1': 0.4699, 'orange': 0.43381875}, 'line_colors': {'purple_1': 0.1255875}}
