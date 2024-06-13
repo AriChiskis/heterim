@@ -69,8 +69,6 @@ def distance_in_lab_space(color1, color2):
             print("Failed to calculate delta E. Check color conversion.")
             return None
 
-
-
 def color_classifier(color, epsilon = 30):
   """
   Classifies a color based on its distance to base colors in the CIELAB space.
@@ -105,57 +103,6 @@ def color_classifier(color, epsilon = 30):
 
   return closest_color if min_distance <= epsilon else "other"
 
-
-# def calculate_color_percentages(image_path, base_colors, epsilon=30):
-#     """
-#     Optimized function to calculate the percentage of each base color in an image by first collecting unique colors.
-
-#     Args:
-#         image_path: The path to the image file.
-#         base_colors: A dictionary mapping color names to RGB tuples.
-#         epsilon: Threshold for deciding color match proximity.
-
-#     Returns:
-#         A dictionary mapping color names to their approximate percentages in the image (as floats between 0 and 1).
-#     """
-#     # Open the image and convert to RGB
-#     start_time = time.time()  # Start timing
-
-#     image = image_path.convert('RGB')
-#     width, height = image.size
-
-#     # Collect all unique colors and their counts
-#     unique_colors = {}
-#     for y in range(height):
-#         for x in range(width):
-#             pixel = image.getpixel((x, y))
-#             if pixel in unique_colors:
-#                 unique_colors[pixel] += 1
-#             else:
-#                 unique_colors[pixel] = 1
-
-#     # Map each unique color to the closest base color
-#     color_map = {}
-#     for color in unique_colors:
-#         closest_color_name = color_classifier(color, base_colors, epsilon=epsilon)
-#         if closest_color_name in color_map:
-#             color_map[closest_color_name] += unique_colors[color]
-#         else:
-#             color_map[closest_color_name] = unique_colors[color]
-
-#     # Add 'other' key to handle any unmatched color explicitly if necessary
-#     if 'other' not in color_map:
-#         color_map['other'] = 0
-
-#     # Calculate percentages
-#     total_pixels = width * height
-#     percentages = {color_name: count / total_pixels for color_name, count in color_map.items()}
-
-    
-#     end_time = time.time()  # End timing
-#     print(f"Calculation took {end_time - start_time:.2f} seconds.") 
-
-#     return percentages
 def crop_image_center(image, crop_width, crop_height):
     """
     Crops an image around its center based on specified dimensions.
@@ -185,7 +132,6 @@ def crop_image_center(image, crop_width, crop_height):
 
     return cropped_image
 
-
 def downscale_image(image, scale_factor):
     """
     Scales down an image by a given factor using high-quality resampling.
@@ -204,7 +150,6 @@ def downscale_image(image, scale_factor):
     resized = image.resize((new_width, new_height), Image.Resampling.LANCZOS)
 
     return resized
-
 
 def apply_kmeans(image, num_clusters):
     """
@@ -234,22 +179,21 @@ def apply_kmeans(image, num_clusters):
     new_image = Image.fromarray(new_image_data.astype('uint8'), 'RGB')
     return new_image
 
-
 def calculate_color_percentages(image, epsilon=30, scale_factor=0.5, num_clusters=10,crop_width = 400, crop_height = 400):
-    print("calculating_color_percentages ")
+    # print("calculating_color_percentages ")
 
     start_time = time.time()
 
     # Load and process image
     original_image = image.convert('RGB')
 
-    print("cropping image") 
+    # print("cropping image") 
     cropped_image = crop_image_center(original_image,crop_width=crop_width , crop_height=crop_height)
     # scaled_image = downscale_image(original_image, scale_factor)
     # scaled_image.show()
     simplified_image = apply_kmeans(cropped_image, num_clusters)
     # simplified_image.show()
-    print("kmeaned inage")
+    # print("kmeaned inage")
 
   
     width, height = simplified_image.size
@@ -283,9 +227,8 @@ def calculate_color_percentages(image, epsilon=30, scale_factor=0.5, num_cluster
     percentages = {color_name: count / total_pixels for color_name, count in color_map.items()}
 
     end_time = time.time()
-    print(f"Calculation took {end_time - start_time:.2f} seconds.")
+    # print(f"Calculation took {end_time - start_time:.2f} seconds.")
     return percentages
-
 
 def filter_colors_precentage(precentages,trheshhold):
   filtered = {color_name : precentage for color_name, precentage in precentages.items() if precentage >= trheshhold}

@@ -22,7 +22,7 @@ EVEN = 0
 
 
 
-
+#important
 def zoomin(driver,sleep_time=0.2):
     """this function will do a zoom in on the map, probably will be use when we want to zoomin after we have
         navigated to a spesific address"""
@@ -43,7 +43,7 @@ def zoomin(driver,sleep_time=0.2):
         # Close the browser after some time or based on some other condition
         pass
 
-
+#important
 def zoom(driver,sleep_time=0.2,OUT=False,times=1):
     """zoom on the map n times, by default in"""
     #set up the zoom
@@ -67,7 +67,7 @@ def zoom(driver,sleep_time=0.2,OUT=False,times=1):
         # Close the browser after some time or based on some other condition
         pass
      
-
+#important
 def click_on_first_option(driver):
         """ this function clicking on the first option in the dropdown, 
             the reason is because in this site this is the way i have found to get the click to work and to go the a spesific address
@@ -80,7 +80,7 @@ def click_on_first_option(driver):
         actions.perform()
         sleep(1)
 
-
+#important
 def click_on_toolbarLocates(driver,sleep_time=0.2):
         """clicking simply on a html toolbarLocates (and opening it) / (or closing it)
             we let it sleep time of default 0.2 because this website is shit and can be slow
@@ -94,7 +94,7 @@ def click_on_toolbarLocates(driver,sleep_time=0.2):
         toolbar_locates_button.click()
         # Wait for the street name input to become visible and interactable
 
-
+#important
 def click_on_element_by_ID(driver,ID,sleep_time=0.2):
         """clicking simply on a html element by its ID
             we let it sleep time of default 0.2 because this website is shit and can be slow """
@@ -105,7 +105,7 @@ def click_on_element_by_ID(driver,ID,sleep_time=0.2):
         element_id_button.click()
         return element_id_button
 
-
+#important
 def move_mouse_to_center(driver):
     # Get the size of the window/viewport
     window_size = driver.execute_script("return [window.innerWidth, window.innerHeight]")
@@ -123,7 +123,7 @@ def move_mouse_to_center(driver):
     actions.move_by_offset(center_x, center_y).perform()  # Move to the center
     print("Moved mouse to the center of the viewport.")
 
-
+#important
 def extract_xyz_coordinates(driver):
     # Find the element containing the coordinates
     element = driver.find_element(By.ID, "txtCoords")
@@ -150,13 +150,13 @@ def extract_xyz_coordinates(driver):
     else:
         return None
 
-
+#important
 def get_xyz_coordinate(driver,sleep_time = 1):
      move_mouse_to_center(driver)
      time.sleep(sleep_time)
      return extract_xyz_coordinates(driver)
 
-
+#important
 def get_xy_coardinates(driver):
      xyz = get_xyz_coordinate(driver)
      if xyz != None:
@@ -164,7 +164,7 @@ def get_xy_coardinates(driver):
      else:
           return None
 
-
+#important
 def write_street_name(driver,name,sleep_time=0.2):
         """writing street name on toolbarLocates in input "inputStreets"  and clicking on the first option
             NOTE : toolbarLocate button should have been open"""
@@ -178,7 +178,7 @@ def write_street_name(driver,name,sleep_time=0.2):
         street_input.send_keys(name)
         time.sleep(sleep_time)
 
-
+#important
 def write_street_number(driver,number,sleep_time=0.2,number_is_string = True):
         """writing street number on toolbarLocates in input מספר בית  and clicking on the first option
             NOTE : toolbarLocate button should have been open"""
@@ -194,6 +194,7 @@ def write_street_number(driver,number,sleep_time=0.2,number_is_string = True):
             house_number_input.send_keys(str(number))
         time.sleep(sleep_time)
 
+#important
 def write_street_number_as_string(driver,string_number,sleep_time=0.2):
         """writing street number on toolbarLocates in input מספר בית  and clicking on the first option
             NOTE : toolbarLocate button should have been open
@@ -209,7 +210,7 @@ def write_street_number_as_string(driver,string_number,sleep_time=0.2):
         house_number_input.send_keys(string_number)
         time.sleep(sleep_time)
 
-
+#important
 def search_street_and_number(driver,name,number,Open_toolbarLocates = True,Close_toolbarLocates = False,sleep_time=0.2):
         """searches for a street and a number and clicking on it and eventually it apperas on the map.
 
@@ -249,7 +250,7 @@ def search_street_and_number(driver,name,number,Open_toolbarLocates = True,Close
         # Optionally, you can wait to observe the input effects or add further actions
         time.sleep(search_street_sleep_time)
 
-
+#important
 def search_street_and_number_as_string(driver,name,number_as_string,Open_toolbarLocates = True,Close_toolbarLocates = False,sleep_time=0.2):
         """searches for a street and a number and clicking on it and eventually it apperas on the map.
 
@@ -312,7 +313,7 @@ def search_consecative_number_in_street(driver, name='רחוב דיזנגוף', 
     click_on_first_option(driver)
     time.sleep(sleep_time)
 
-
+#semi important
 def search_street(driver,name='רחוב דיזנגוף',starting_number=150,length=3):
         """this function will visit over all the addresses street_name[ starting_number, starting_number+range ]
             PARAMETERS:
@@ -372,7 +373,7 @@ def search_street_coardinates(driver,name='רחוב דיזנגוף',starting_num
             
         return street_coardinates
 
-
+#important
 def load_map(driver):
     """this function loads the map of תוכנית 5000 אזורי ייעוד') on the regular map of the website"""
     sleep_time = 3
@@ -408,7 +409,7 @@ def load_map(driver):
     print('Layer toolbar closed')
     time.sleep(sleep_time + 5)
 
-
+#important
 def clear_map_signs(driver):
     """clear_map_signs (the black dot that mentions the street that you have navigated to)"""
     # Define a reasonable time to wait for elements to be interactable
@@ -437,7 +438,7 @@ def locate_address(driver,name,number):
     zoomin(sleep_time)
     clear_map_signs(driver)
 
-
+#important
 def take_screenshot(driver, file_path='screenshot.png'):
     """The WebDriver takes the screenshot and saves it to the specified file path.
         I create this function to take screenshot To identify the color of the building plot and as a result understand the building rights"""
@@ -534,7 +535,7 @@ def search_side_street_coardiantes(driver,name,starting_number,length=3,get_coar
         print("\n\n\n")
         return street_coardinates
 
-
+#important
 def create_directory(street,streets_folder):
     # Specify the directory name
         folder_name = street
@@ -558,29 +559,54 @@ def create_directory(street,streets_folder):
 
 
 
+def take_side_street_screenshots_and_coardiantes(driver, street_dir, side_list, side, get_coordinates=get_xy_coardinates, max_retries=3):
+    street_coordinates = []
+    # street_dir = Path(street_dir)  # Ensure street_dir is a Path object
 
-     
-def take_side_street_screenshots_and_coardiantes(driver , street_dir , side_list , side , get_coardinates = get_xy_coardinates ):
-    street_coardinates = []
     for number in side_list:
-        click_on_toolbarLocates(driver = driver) # open tollabrLocate
-        write_street_number(driver = driver , number=number,number_is_string=True)
-        click_on_toolbarLocates(driver = driver) # close tollabrLocate
-        clear_map_signs(driver = driver)
-        street_coardinates.append( get_coardinates(driver) )
-        take_screenshot(driver = driver , file_path = street_dir / side / (number + ".png") )
-    return street_coardinates
-     
+        attempts = 0
+        while attempts < max_retries:
+            try:
+                # Attempt to perform the operations
+                click_on_toolbarLocates(driver=driver)  # Open toolbarLocate
+                write_street_number(driver=driver, number=number, number_is_string=True)
+                click_on_toolbarLocates(driver=driver)  # Close toolbarLocate
+                clear_map_signs(driver=driver)
+                coordinates = get_coordinates(driver)
+                street_coordinates.append(coordinates)
 
+                # Define file path and take screenshot
+                file_path = street_dir / side / f"{number}.png"
+                take_screenshot(driver=driver, file_path=file_path)
+                break  # Break the loop if operations succeed
+            except Exception as e:
+                print(f"Error processing {number}: {e}. Retrying...")
+                attempts += 1
+                if attempts == max_retries:
+                    print(f"Failed to process {number} after {max_retries} attempts.")
+                    
+    return street_coordinates
+   
+# def take_side_street_screenshots_and_coardiantes(driver , street_dir , side_list , side , get_coardinates = get_xy_coardinates ):
+#     street_coardinates = []
+#     for number in side_list:
+#         click_on_toolbarLocates(driver = driver) # open tollabrLocate
+#         write_street_number(driver = driver , number=number,number_is_string=True)
+#         click_on_toolbarLocates(driver = driver) # close tollabrLocate
+#         clear_map_signs(driver = driver)
+#         street_coardinates.append( get_coardinates(driver) )
+#         take_screenshot(driver = driver , file_path = street_dir / side / (number + ".png") )
+#     return street_coardinates
+     
+#important
 def scan_street_side_and_get_coardinates(driver , street , streets_folder = "streets" , get_coardinates= get_xy_coardinates):
     street_dir = create_directory(street=street , streets_folder=streets_folder)
     street_numbers = get_street_numbers(driver=driver,street=street)
     odd_list, even_list = separate_street_numbers_to_odd_and_even(street_numbers=street_numbers)
-
     odd_coardiantes = take_side_street_screenshots_and_coardiantes(driver = driver , street_dir=street_dir , side_list= odd_list , side = "odd")
     even_coardinates = take_side_street_screenshots_and_coardiantes(driver = driver , street_dir=street_dir , side_list= even_list , side = "even")
-    file_path = pathlib.Path(street_dir / "coardinates.txt")
-
+    
+    file_path = pathlib.Path(street_dir / "coordinates.txt")
     # Writing the lists to the file
     with file_path.open("w") as file:
         # Writing list1 by converting each element to string and joining with comma
@@ -590,34 +616,60 @@ def scan_street_side_and_get_coardinates(driver , street , streets_folder = "str
 
 
     return odd_coardiantes , even_coardinates
-
     
+# #important
+# def get_street_numbers(driver,street):
+#     numbers = []
+#     click_on_toolbarLocates(driver) #open clicbarLocates
 
-
-        
-     
-     
-
-def get_street_numbers(driver,street):
+#     write_street_name(driver,street)
+#     click_on_first_option(driver)
+#     # Get the page source from Selenium
+#     html = driver.page_source
+#     soup = BeautifulSoup(html, 'html.parser')
+#     # Find the element by ID or class or whatever suits your needs
+#     dropdown_list = soup.find('ul', {'id': 'inputHouses_listbox'})
+#     if dropdown_list:
+#         for li in dropdown_list.find_all('li'):
+#             numbers.append(li.text)
+    
+#     click_on_toolbarLocates(driver) #close clicbarLocates
+    
+#     return numbers
+def get_street_numbers(driver, street, max_retries=3, retry_delay=3):
     numbers = []
-    click_on_toolbarLocates(driver) #open clicbarLocates
+    attempts = 0
+    
+    while attempts < max_retries:
+        try:
+            click_on_toolbarLocates(driver)  # Open toolbarLocates
 
-    write_street_name(driver,street)
-    click_on_first_option(driver)
-    # Get the page source from Selenium
-    html = driver.page_source
-    soup = BeautifulSoup(html, 'html.parser')
-    # Find the element by ID or class or whatever suits your needs
-    dropdown_list = soup.find('ul', {'id': 'inputHouses_listbox'})
-    if dropdown_list:
-        for li in dropdown_list.find_all('li'):
-            numbers.append(li.text)
-    
-    click_on_toolbarLocates(driver) #close clicbarLocates
-    
+            write_street_name(driver, street)
+            click_on_first_option(driver)
+
+            # Get the page source from Selenium
+            html = driver.page_source
+            soup = BeautifulSoup(html, 'html.parser')
+            # Find the element by ID or class or whatever suits your needs
+            dropdown_list = soup.find('ul', {'id': 'inputHouses_listbox'})
+            if dropdown_list:
+                numbers = [li.text for li in dropdown_list.find_all('li')]
+            
+            click_on_toolbarLocates(driver)  # Close toolbarLocates
+            break  # If everything goes well, break out of the loop
+
+        except Exception as e:
+            print(f"Error encountered: {e}. Retrying...")
+            attempts += 1
+            click_on_toolbarLocates(driver)  # Attempt to close toolbarLocates if it's still open
+            if attempts < max_retries:
+                time.sleep(retry_delay)  # Wait before retrying
+            else:
+                print(f"Failed to process street '{street}' after {max_retries} attempts.")
+
     return numbers
 
-
+#important
 def separate_street_numbers_to_odd_and_even(street_numbers):
     odd_list = []
     even_list = []
@@ -640,17 +692,6 @@ def separate_street_numbers_to_odd_and_even(street_numbers):
     return odd_list, even_list
 
 
-
-
-
-
-def new_func(get_street_numbers, separate_street_numbers_to_odd_and_even, driver):
-    street_numbers = get_street_numbers(driver=driver,street='רחוב חנקין')
-    print(street_numbers)
-    odd_list, even_list = separate_street_numbers_to_odd_and_even(street_numbers)
-    print("Odd List:", odd_list)
-    print("Even List:", even_list)
-
 if __name__ == "__main__":
     sleep_time = 0.2
 
@@ -665,9 +706,9 @@ if __name__ == "__main__":
 
         # Open the web page
         driver.get(link)
-        time.sleep(20) # let it the page load all the stuff (it is very very slow at the start)
+        time.sleep(30) # let it the page load all the stuff (it is very very slow at the start)
         load_map(driver)
-        street = "רחוב יהודה המכבי"
+        street = "רחוב בזל"
         scan_street_side_and_get_coardinates(driver = driver , street = street)
         
 

@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 import numpy as np
 import matplotlib.pyplot as plt
-
+#important
 def plot_coordinates(coordinates1, coordinates2, filename='street_shape.png'):
     # Normalize coordinates and prepare plots for two different lists
     normalized1 = normalize_coordinates(coordinates1)
@@ -46,7 +46,7 @@ def plot_coordinates(coordinates1, coordinates2, filename='street_shape.png'):
     plt.savefig(filename, format='png', dpi=300, bbox_inches='tight')
     plt.show()
     plt.close()
-
+#important
 def set_plot_limits(coordinates1, coordinates2):
     # Gather all coordinates for setting plot limits
     all_coords = coordinates1 + coordinates2
@@ -55,7 +55,7 @@ def set_plot_limits(coordinates1, coordinates2):
     axis_limits = [-max_range, max_range]
     plt.xlim(axis_limits)
     plt.ylim(axis_limits)
-
+#important
 def add_perpendicular_vectors(coordinates, index, direction):
     point = coordinates[index]
     if index < len(coordinates) - 1:
@@ -71,7 +71,7 @@ def add_perpendicular_vectors(coordinates, index, direction):
             perpendicular_vector = perpendicular_vector / norm * 30  # Scale the vector for visibility
         plt.arrow(point[0], point[1], perpendicular_vector[0], perpendicular_vector[1], 
                   head_width=2, head_length=3, fc='green', ec='green')
-
+#important
 def even_oriented(coordinates, index):
     """ Return the perpendicular vector (y, -x) for even orientation. """
     size = len(coordinates)
@@ -93,8 +93,7 @@ def even_oriented(coordinates, index):
         vector = (next_point[0] - point[0], next_point[1] - point[1])
         perpendicular_vector = (vector[1], -vector[0])
         return perpendicular_vector
-    
-
+#important  
 def straight_oriented(coordinates, index):
     """ Return the perpendicular vector (y, -x) for even orientation. """
     size = len(coordinates)
@@ -112,7 +111,8 @@ def straight_oriented(coordinates, index):
         next_point = coordinates[size - 1]
         vector = (next_point[0] - point[0], next_point[1] - point[1])
         return vector
-    
+  #important  
+#important
 def odd_oriented(coordinates, index):
     """ Return the perpendicular vector (-y, x) for odd orientation. """
     size = len(coordinates)
@@ -149,7 +149,7 @@ def straight_oriented(coordinates,index):
         # Calculate the perpendicular vector (-y, x)
         vector = (next_point[0] - point[0], next_point[1] - point[1])
         return vector
-
+#important
 def normalize_coordinates(coordinates):
     # Get the first point's x and y coordinates
     first_x, first_y = coordinates[0] 
@@ -256,7 +256,7 @@ def square_center_after_moving_by_outer_normal(image,unit_vector,step_size):
     new_y = int(center_y   - unit_vector[1] * step_size)
     return new_x , new_y
 
-
+#important
 def normalize_vector(vector):
     # Calculate the magnitude of the vector
     magnitude = math.sqrt(sum(x**2 for x in vector))

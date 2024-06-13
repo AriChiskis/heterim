@@ -1,0 +1,23 @@
+# Define your base color dictionary
+base_colors = {
+    "body": (253, 220, 151),
+    "banana": (254, 254, 152),
+    "maccabi_yellow": (254, 254, 25),
+    "orange": (253, 118, 21),
+    "purple_1": (209, 147, 253),
+    "purple_2": (195, 61, 253),
+    "purple_3": (114, 25, 214),
+    # "pink_flower": (253, 146, 149),
+    "red_flower":  (235, 87, 87) ,#(253, 70, 77),
+    "pink": (253, 147, 153),
+    "red": (254, 41, 23),
+    "shiny_pink" : (254, 25, 161) ,  # for purple type 3 could be diagonal and double diagonal
+    "dark_olive_green" : (57, 62, 24) ,
+    "brown" : (164, 81, 58) , 
+    "boulivard_light_green" : (164, 81, 58) , 
+    "park_green" : (23, 61, 20) , 
+    "black" : (36, 38, 42) ,
+    "red_train" : (208, 24, 18) , 
+    "gray_train" : (200, 204, 203) , 
+
+}
