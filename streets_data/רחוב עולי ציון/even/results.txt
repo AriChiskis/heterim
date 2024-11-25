@@ -1,0 +1,43 @@
+
+Results for Image Processing:
+----------------------------------
+2:
+{'dominant_colors': {'purple_1': 0.40296875}, 'line_colors': {}}
+4:
+{'dominant_colors': {'purple_1': 0.40296875}, 'line_colors': {}}
+6:
+{'dominant_colors': {'purple_1': 0.38609375}, 'line_colors': {}}
+8:
+{'dominant_colors': {'purple_1': 0.38609375}, 'line_colors': {}}
+10:
+{'dominant_colors': {'purple_1': 0.38609375}, 'line_colors': {}}
+12:
+{'dominant_colors': {'purple_1': 0.37844375}, 'line_colors': {}}
+14:
+{'dominant_colors': {'orange': 0.4714125}, 'line_colors': {}}
+16:
+{'dominant_colors': {'orange': 0.4714125}, 'line_colors': {}}
+18:
+{'dominant_colors': {'orange': 0.4714125}, 'line_colors': {}}
+20:
+{'dominant_colors': {'purple_1': 0.58693125}, 'line_colors': {}}
+22:
+{'dominant_colors': {'purple_1': 0.4000875}, 'line_colors': {}}
+24:
+{'dominant_colors': {'purple_1': 0.3531625}, 'line_colors': {}}
+26:
+{'dominant_colors': {'purple_1': 0.5635625}, 'line_colors': {}}
+28:
+{'dominant_colors': {'purple_1': 0.535975}, 'line_colors': {}}
+30:
+{'dominant_colors': {'purple_1': 0.4702}, 'line_colors': {}}
+32:
+{'dominant_colors': {'purple_1': 0.57555625}, 'line_colors': {}}
+34:
+{'dominant_colors': {'purple_1': 0.59578125}, 'line_colors': {}}
+36:
+{'dominant_colors': {'purple_1': 0.5050875}, 'line_colors': {}}
+38:
+{'dominant_colors': {'purple_1': 0.4710375}, 'line_colors': {'purple_1': 0.26629375, 'pink': 0.11449375, 'red_flower': 0.1703375}}
+40:
+{'dominant_colors': {'purple_1': 0.54919375}, 'line_colors': {}}

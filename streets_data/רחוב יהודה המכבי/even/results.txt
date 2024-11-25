@@ -1,0 +1,85 @@
+
+Results for Image Processing:
+----------------------------------
+2א:
+{'dominant_colors': {'purple_1': 0.362442996742671}, 'line_colors': {}}
+2ב:
+{'dominant_colors': {'orange': 0.644}, 'line_colors': {}}
+2ג:
+{'dominant_colors': {'orange': 0.8698125}, 'line_colors': {}}
+4:
+{'dominant_colors': {'purple_1': 0.37198125}, 'line_colors': {}}
+6:
+{'dominant_colors': {'purple_1': 0.5401125, 'orange': 0.3018375}, 'line_colors': {'purple_1': 0.20914375}}
+8:
+{'dominant_colors': {'purple_1': 0.50490625}, 'line_colors': {'purple_1': 0.23385625}}
+10:
+{'dominant_colors': {'purple_1': 0.52293125, 'maccabi_yellow': 0.35570625}, 'line_colors': {'purple_1': 0.2056375}}
+12:
+{'dominant_colors': {'purple_1': 0.52155, 'maccabi_yellow': 0.3386875}, 'line_colors': {}}
+14:
+{'dominant_colors': {'purple_1': 0.50845625}, 'line_colors': {}}
+16:
+{'dominant_colors': {'purple_1': 0.5007875}, 'line_colors': {'purple_1': 0.3224875}}
+18:
+{'dominant_colors': {'maccabi_yellow': 0.6017125}, 'line_colors': {'purple_1': 0.34755}}
+20:
+{'dominant_colors': {'purple_1': 0.4516125, 'maccabi_yellow': 0.303775}, 'line_colors': {}}
+22:
+{'dominant_colors': {'purple_1': 0.49895625, 'maccabi_yellow': 0.35575625}, 'line_colors': {}}
+24:
+{'dominant_colors': {'purple_1': 0.52275625}, 'line_colors': {}}
+26:
+{'dominant_colors': {'purple_1': 0.51788125}, 'line_colors': {'purple_1': 0.20784375}}
+28:
+{'dominant_colors': {'purple_1': 0.49240625}, 'line_colors': {'purple_1': 0.2136125}}
+30:
+{'dominant_colors': {'purple_1': 0.47780625}, 'line_colors': {'purple_1': 0.22275}}
+30א:
+{'dominant_colors': {'purple_1': 0.55585625, 'orange': 0.3456125}, 'line_colors': {'purple_1': 0.205225}}
+32:
+{'dominant_colors': {'purple_1': 0.52101875}, 'line_colors': {}}
+34:
+{'dominant_colors': {'purple_1': 0.53949375, 'orange': 0.3608875}, 'line_colors': {'purple_1': 0.20331875}}
+36:
+{'dominant_colors': {'purple_1': 0.54588125}, 'line_colors': {'purple_1': 0.58663125}}
+38:
+{'dominant_colors': {'orange': 1.0}, 'line_colors': {}}
+40:
+{'dominant_colors': {'purple_1': 0.50950625}, 'line_colors': {}}
+42:
+{'dominant_colors': {'purple_1': 0.508275}, 'line_colors': {'purple_1': 0.2325375}}
+42א:
+{'dominant_colors': {'purple_1': 0.5126875, 'maccabi_yellow': 0.33429375}, 'line_colors': {}}
+44:
+{'dominant_colors': {'purple_1': 0.411275}, 'line_colors': {'purple_1': 0.396475}}
+44א:
+{'dominant_colors': {'purple_1': 0.48364375, 'maccabi_yellow': 0.40024375}, 'line_colors': {'purple_1': 0.2213625}}
+46:
+{'dominant_colors': {'purple_1': 0.5177875, 'maccabi_yellow': 0.3678}, 'line_colors': {'purple_1': 0.20880625}}
+48:
+{'dominant_colors': {'purple_1': 0.51445625, 'maccabi_yellow': 0.36468125}, 'line_colors': {'purple_1': 0.31805625}}
+50:
+{'dominant_colors': {'purple_1': 0.49743125, 'maccabi_yellow': 0.41856875}, 'line_colors': {'purple_1': 0.2220875}}
+52:
+{'dominant_colors': {'purple_1': 0.48219375, 'maccabi_yellow': 0.38975}, 'line_colors': {}}
+54:
+{'dominant_colors': {'purple_1': 0.48558125, 'maccabi_yellow': 0.3297875}, 'line_colors': {'purple_1': 0.31780625}}
+56:
+{'dominant_colors': {'purple_1': 0.47248125, 'maccabi_yellow': 0.40305625}, 'line_colors': {'purple_1': 0.2241875}}
+58:
+{'dominant_colors': {'purple_1': 0.4805125, 'maccabi_yellow': 0.3465375}, 'line_colors': {}}
+60:
+{'dominant_colors': {'purple_1': 0.51444375}, 'line_colors': {}}
+62:
+{'dominant_colors': {'purple_1': 0.52325}, 'line_colors': {}}
+64:
+{'dominant_colors': {'purple_1': 0.5416125, 'orange': 0.315875}, 'line_colors': {'purple_1': 0.34264375}}
+66:
+{'dominant_colors': {'purple_1': 0.49106875, 'orange': 0.39160625}, 'line_colors': {'purple_1': 0.28060625}}
+68:
+{'dominant_colors': {'purple_1': 0.45294375, 'orange': 0.44535}, 'line_colors': {'purple_1': 0.2173375}}
+70:
+{'dominant_colors': {'purple_1': 0.4699, 'orange': 0.43381875}, 'line_colors': {}}
+72:
+{'dominant_colors': {'purple_1': 0.4699, 'orange': 0.43381875}, 'line_colors': {}}

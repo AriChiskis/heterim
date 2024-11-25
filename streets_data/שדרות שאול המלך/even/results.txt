@@ -1,0 +1,15 @@
+
+Results for Image Processing:
+----------------------------------
+2.png:
+{'dominant_colors': {'purple_3': 0.847675, 'shiny_pink': 0.1270125}, 'line_colors': {}}
+4.png:
+{'dominant_colors': {'purple_3': 0.96539375, 'shiny_pink': 0.019725}, 'line_colors': {}}
+6.png:
+{'dominant_colors': {'purple_3': 0.8441875, 'shiny_pink': 0.13473125}, 'line_colors': {}}
+8.png:
+{'dominant_colors': {'purple_3': 0.84093125, 'shiny_pink': 0.1325875}, 'line_colors': {}}
+10.png:
+{'dominant_colors': {'purple_3': 0.52735, 'shiny_pink': 0.11773125}, 'line_colors': {}}
+12א.png:
+{'dominant_colors': {'purple_3': 0.84474375, 'shiny_pink': 0.12935625}, 'line_colors': {}}

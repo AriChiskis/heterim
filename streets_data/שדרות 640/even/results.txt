@@ -1,0 +1,61 @@
+
+Results for Image Processing:
+----------------------------------
+2:
+{'dominant_colors': {'maccabi_yellow': 0.4093875}, 'line_colors': {}}
+2א:
+{'dominant_colors': {'maccabi_yellow': 0.42475625}, 'line_colors': {}}
+4א:
+{'dominant_colors': {'maccabi_yellow': 0.3785125}, 'line_colors': {}}
+6:
+{'dominant_colors': {'maccabi_yellow': 0.345525}, 'line_colors': {}}
+6א:
+{'dominant_colors': {'maccabi_yellow': 1.0}, 'line_colors': {}}
+8:
+{'dominant_colors': {'maccabi_yellow': 0.3668875}, 'line_colors': {}}
+10ב:
+{'dominant_colors': {'maccabi_yellow': 0.61111875}, 'line_colors': {}}
+12:
+{'dominant_colors': {'maccabi_yellow': 0.33246875}, 'line_colors': {}}
+12א:
+{'dominant_colors': {'maccabi_yellow': 0.59403125}, 'line_colors': {}}
+14:
+{'dominant_colors': {'maccabi_yellow': 0.9651}, 'line_colors': {}}
+16:
+{'dominant_colors': {'maccabi_yellow': 0.9651}, 'line_colors': {}}
+18:
+{'dominant_colors': {'maccabi_yellow': 0.416175}, 'line_colors': {}}
+18א:
+{'dominant_colors': {'maccabi_yellow': 0.4224125}, 'line_colors': {}}
+18ב:
+{'dominant_colors': {'maccabi_yellow': 0.42359375}, 'line_colors': {}}
+18ג:
+{'dominant_colors': {'maccabi_yellow': 0.4196125}, 'line_colors': {}}
+20:
+{'dominant_colors': {'maccabi_yellow': 0.42421875}, 'line_colors': {}}
+22:
+{'dominant_colors': {'maccabi_yellow': 0.41943125}, 'line_colors': {}}
+24:
+{'dominant_colors': {'maccabi_yellow': 0.43328125}, 'line_colors': {}}
+24א:
+{'dominant_colors': {'maccabi_yellow': 0.47899375}, 'line_colors': {}}
+26:
+{'dominant_colors': {'maccabi_yellow': 0.52083125}, 'line_colors': {}}
+26א:
+{'dominant_colors': {'maccabi_yellow': 0.55010625}, 'line_colors': {}}
+28:
+{'dominant_colors': {'maccabi_yellow': 0.42746875}, 'line_colors': {}}
+28א:
+{'dominant_colors': {'maccabi_yellow': 0.4821875}, 'line_colors': {}}
+30:
+{'dominant_colors': {'maccabi_yellow': 0.38805}, 'line_colors': {}}
+30א:
+{'dominant_colors': {'maccabi_yellow': 0.4163375}, 'line_colors': {}}
+32:
+{'dominant_colors': {'maccabi_yellow': 0.4290625}, 'line_colors': {}}
+32א:
+{'dominant_colors': {'maccabi_yellow': 0.41959375}, 'line_colors': {}}
+34:
+{'dominant_colors': {'maccabi_yellow': 0.37740625}, 'line_colors': {}}
+36:
+{'dominant_colors': {'maccabi_yellow': 0.37740625}, 'line_colors': {}}

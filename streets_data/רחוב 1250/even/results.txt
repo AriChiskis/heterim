@@ -1,0 +1,61 @@
+
+Results for Image Processing:
+----------------------------------
+2.png:
+{'dominant_colors': {'orange': 0.90893125}, 'line_colors': {}}
+4.png:
+{'dominant_colors': {'orange': 0.90893125}, 'line_colors': {}}
+6.png:
+{'dominant_colors': {'orange': 0.96188125}, 'line_colors': {}}
+8.png:
+{'dominant_colors': {'orange': 0.962025}, 'line_colors': {}}
+10.png:
+{'dominant_colors': {'orange': 0.95215}, 'line_colors': {}}
+12.png:
+{'dominant_colors': {'orange': 0.96504375}, 'line_colors': {}}
+14.png:
+{'dominant_colors': {'orange': 0.96209375}, 'line_colors': {}}
+16.png:
+{'dominant_colors': {'orange': 0.9625125}, 'line_colors': {}}
+18.png:
+{'dominant_colors': {'orange': 0.96245625}, 'line_colors': {}}
+20.png:
+{'dominant_colors': {'orange': 0.96491875}, 'line_colors': {}}
+22.png:
+{'dominant_colors': {'orange': 0.9652125}, 'line_colors': {}}
+24.png:
+{'dominant_colors': {'orange': 0.95873125}, 'line_colors': {}}
+26.png:
+{'dominant_colors': {'orange': 0.961375}, 'line_colors': {}}
+28.png:
+{'dominant_colors': {'orange': 0.95746875}, 'line_colors': {}}
+30.png:
+{'dominant_colors': {'orange': 0.959875}, 'line_colors': {}}
+32.png:
+{'dominant_colors': {'orange': 0.96929375}, 'line_colors': {}}
+34.png:
+{'dominant_colors': {'orange': 0.9686625}, 'line_colors': {}}
+36.png:
+{'dominant_colors': {'orange': 0.9482375}, 'line_colors': {}}
+38.png:
+{'dominant_colors': {'orange': 0.93121875}, 'line_colors': {}}
+40.png:
+{'dominant_colors': {'orange': 0.9488125}, 'line_colors': {}}
+42.png:
+{'dominant_colors': {'orange': 0.96256875}, 'line_colors': {}}
+44.png:
+{'dominant_colors': {'orange': 0.96473125}, 'line_colors': {}}
+46.png:
+{'dominant_colors': {'orange': 0.95803125}, 'line_colors': {}}
+48.png:
+{'dominant_colors': {'orange': 0.95546875}, 'line_colors': {}}
+50.png:
+{'dominant_colors': {'orange': 0.95919375}, 'line_colors': {}}
+52.png:
+{'dominant_colors': {'orange': 0.965175}, 'line_colors': {}}
+54.png:
+{'dominant_colors': {'orange': 0.965175}, 'line_colors': {}}
+56.png:
+{'dominant_colors': {'orange': 0.95489375}, 'line_colors': {}}
+58.png:
+{'dominant_colors': {'orange': 0.91008125}, 'line_colors': {}}

@@ -1,0 +1,53 @@
+
+Results for Image Processing:
+----------------------------------
+2.png:
+{'dominant_colors': {'purple_3': 0.50251875, 'shiny_pink': 0.0631875}, 'line_colors': {}}
+4.png:
+{'dominant_colors': {'purple_3': 0.67983125, 'shiny_pink': 0.21311875}, 'line_colors': {}}
+6.png:
+{'dominant_colors': {'purple_3': 0.67336875, 'shiny_pink': 0.28230625}, 'line_colors': {}}
+8.png:
+{'dominant_colors': {'purple_3': 0.7884125, 'shiny_pink': 0.1796375}, 'line_colors': {}}
+10.png:
+{'dominant_colors': {'purple_3': 0.94579375, 'shiny_pink': 0.0424875}, 'line_colors': {}}
+12.png:
+{'dominant_colors': {'purple_3': 0.64081875, 'shiny_pink': 0.026475}, 'line_colors': {}}
+14.png:
+{'dominant_colors': {'pink': 0.9277}, 'line_colors': {}}
+16.png:
+{'dominant_colors': {'pink': 0.93386875}, 'line_colors': {}}
+18.png:
+{'dominant_colors': {'pink': 0.9307375}, 'line_colors': {}}
+20.png:
+{'dominant_colors': {'pink': 0.93091875}, 'line_colors': {}}
+22.png:
+{'dominant_colors': {'pink': 0.93065}, 'line_colors': {}}
+24.png:
+{'dominant_colors': {'pink': 0.9306375}, 'line_colors': {}}
+26.png:
+{'dominant_colors': {'pink': 0.94081875}, 'line_colors': {}}
+28.png:
+{'dominant_colors': {'pink': 0.92795625}, 'line_colors': {}}
+30.png:
+{'dominant_colors': {'pink': 0.93070625}, 'line_colors': {}}
+32.png:
+{'dominant_colors': {'pink': 0.93060625}, 'line_colors': {}}
+34.png:
+{'dominant_colors': {'pink': 0.9304375}, 'line_colors': {}}
+36.png:
+{'dominant_colors': {'pink': 0.93055}, 'line_colors': {}}
+38.png:
+{'dominant_colors': {'pink': 0.9289375}, 'line_colors': {}}
+40.png:
+{'dominant_colors': {'pink': 0.9265375}, 'line_colors': {}}
+42.png:
+{'dominant_colors': {'pink': 0.92996875}, 'line_colors': {}}
+44.png:
+{'dominant_colors': {'pink': 0.92798125}, 'line_colors': {}}
+46.png:
+{'dominant_colors': {'pink': 0.64145625}, 'line_colors': {}}
+48.png:
+{'dominant_colors': {'park_green': 0.3113}, 'line_colors': {}}
+50.png:
+{'dominant_colors': {'park_green': 0.3113}, 'line_colors': {}}

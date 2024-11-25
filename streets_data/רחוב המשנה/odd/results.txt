@@ -1,0 +1,21 @@
+
+Results for Image Processing:
+----------------------------------
+1:
+{'dominant_colors': {'orange': 0.95419375}, 'line_colors': {}}
+3:
+{'dominant_colors': {'orange': 0.97081875}, 'line_colors': {}}
+5:
+{'dominant_colors': {'orange': 0.97690625}, 'line_colors': {}}
+7:
+{'dominant_colors': {'orange': 0.95980625}, 'line_colors': {}}
+9:
+{'dominant_colors': {'orange': 0.95615625}, 'line_colors': {}}
+11:
+{'dominant_colors': {'orange': 0.94338125}, 'line_colors': {}}
+13:
+{'dominant_colors': {'orange': 0.94303125}, 'line_colors': {}}
+15:
+{'dominant_colors': {'orange': 0.89500625}, 'line_colors': {}}
+17:
+{'dominant_colors': {'orange': 0.7355}, 'line_colors': {}}

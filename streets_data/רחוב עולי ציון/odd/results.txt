@@ -1,0 +1,25 @@
+
+Results for Image Processing:
+----------------------------------
+1:
+{'dominant_colors': {'purple_1': 0.48256875}, 'line_colors': {'purple_1': 0.43695}}
+3:
+{'dominant_colors': {'purple_1': 0.31525, 'orange': 0.599675}, 'line_colors': {'purple_1': 0.47473125}}
+5:
+{'dominant_colors': {'orange': 0.6510375}, 'line_colors': {'purple_1': 0.2434125}}
+7:
+{'dominant_colors': {'orange': 0.8040125}, 'line_colors': {'purple_1': 0.5598625}}
+9:
+{'dominant_colors': {'orange': 0.79840625}, 'line_colors': {'purple_1': 0.59336875}}
+11:
+{'dominant_colors': {'orange': 0.8081}, 'line_colors': {'purple_1': 0.595475}}
+13:
+{'dominant_colors': {'orange': 0.79795}, 'line_colors': {'purple_1': 0.59608125}}
+15:
+{'dominant_colors': {'orange': 0.94950625}, 'line_colors': {}}
+15א:
+{'dominant_colors': {'orange': 0.85624375}, 'line_colors': {'purple_1': 0.60525}}
+17:
+{'dominant_colors': {'purple_1': 0.36046875}, 'line_colors': {}}
+19:
+{'dominant_colors': {'purple_1': 0.36046875}, 'line_colors': {}}

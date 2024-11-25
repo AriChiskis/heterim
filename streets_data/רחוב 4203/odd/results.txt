@@ -1,0 +1,11 @@
+
+Results for Image Processing:
+----------------------------------
+1:
+{'dominant_colors': {'maccabi_yellow': 0.8974125}, 'line_colors': {}}
+3:
+{'dominant_colors': {'maccabi_yellow': 0.8993125}, 'line_colors': {}}
+5:
+{'dominant_colors': {'maccabi_yellow': 0.88456875}, 'line_colors': {}}
+7:
+{'dominant_colors': {'maccabi_yellow': 0.87116875}, 'line_colors': {}}

@@ -1,0 +1,55 @@
+
+Results for Image Processing:
+----------------------------------
+2.png:
+{'dominant_colors': {'park_green': 1.0}, 'line_colors': {}}
+2א.png:
+{'dominant_colors': {'park_green': 1.0}, 'line_colors': {}}
+2ב.png:
+{'dominant_colors': {'park_green': 1.0}, 'line_colors': {}}
+2ה.png:
+{'dominant_colors': {'park_green': 1.0}, 'line_colors': {}}
+2ו.png:
+{'dominant_colors': {'park_green': 1.0}, 'line_colors': {}}
+4.png:
+{'dominant_colors': {'purple_1': 0.91908125, 'shiny_pink': 0.02898125}, 'line_colors': {'purple_1': 0.4689}}
+6.png:
+{'dominant_colors': {'purple_1': 0.74739375, 'shiny_pink': 0.1820875}, 'line_colors': {'purple_1': 0.61688125}}
+8.png:
+{'dominant_colors': {'purple_1': 0.63539375, 'shiny_pink': 0.2448875}, 'line_colors': {'purple_1': 0.7963}}
+10.png:
+{'dominant_colors': {'purple_1': 0.74304375, 'shiny_pink': 0.2143}, 'line_colors': {'purple_1': 0.8716875}}
+12.png:
+{'dominant_colors': {'purple_1': 0.86735625, 'shiny_pink': 0.1045375}, 'line_colors': {'purple_1': 0.63906875}}
+14.png:
+{'dominant_colors': {'purple_1': 0.95775625, 'shiny_pink': 0.030675}, 'line_colors': {'purple_1': 0.5520625}}
+16.png:
+{'dominant_colors': {'purple_1': 0.95918125, 'shiny_pink': 0.029175}, 'line_colors': {'purple_1': 0.560425}}
+18.png:
+{'dominant_colors': {'purple_1': 0.5465875, 'shiny_pink': 0.21166875}, 'line_colors': {'purple_1': 0.9636625}}
+18א.png:
+{'dominant_colors': {'purple_1': 0.55974375, 'shiny_pink': 0.190875}, 'line_colors': {'purple_1': 0.63796875}}
+20.png:
+{'dominant_colors': {'purple_1': 0.611125, 'shiny_pink': 0.28228125}, 'line_colors': {'purple_1': 0.30854375}}
+22.png:
+{'dominant_colors': {'purple_1': 0.8695875, 'shiny_pink': 0.1087125}, 'line_colors': {'purple_1': 0.58650625}}
+22א.png:
+{'dominant_colors': {'purple_1': 0.90970625, 'shiny_pink': 0.07519375}, 'line_colors': {'purple_1': 0.61116875}}
+24.png:
+{'dominant_colors': {'purple_1': 0.851175, 'shiny_pink': 0.12405625}, 'line_colors': {'purple_1': 0.6161625}}
+26.png:
+{'dominant_colors': {'purple_1': 0.5995375, 'shiny_pink': 0.29865}, 'line_colors': {'purple_1': 0.120875}}
+28.png:
+{'dominant_colors': {'purple_2': 0.70325625, 'shiny_pink': 0.1833125}, 'line_colors': {}}
+28א.png:
+{'dominant_colors': {'purple_2': 0.72316875, 'shiny_pink': 0.04808125}, 'line_colors': {}}
+32.png:
+{'dominant_colors': {'purple_1': 0.7751375, 'shiny_pink': 0.18745}, 'line_colors': {'purple_1': 0.8406625}}
+34.png:
+{'dominant_colors': {'purple_2': 0.58210625, 'shiny_pink': 0.1334}, 'line_colors': {}}
+34א.png:
+{'dominant_colors': {'purple_2': 0.43136875, 'shiny_pink': 0.16304375}, 'line_colors': {}}
+36.png:
+{'dominant_colors': {'purple_2': 0.515075, 'shiny_pink': 0.20000625}, 'line_colors': {}}
+40א.png:
+{'dominant_colors': {'purple_2': 0.515075, 'shiny_pink': 0.20000625}, 'line_colors': {}}

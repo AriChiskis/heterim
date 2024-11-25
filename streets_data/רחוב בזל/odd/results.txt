@@ -1,0 +1,53 @@
+
+Results for Image Processing:
+----------------------------------
+1.png:
+{'dominant_colors': {'orange': 0.71538125}, 'line_colors': {}}
+3.png:
+{'dominant_colors': {'orange': 0.71538125}, 'line_colors': {}}
+5.png:
+{'dominant_colors': {'orange': 0.958575}, 'line_colors': {}}
+7.png:
+{'dominant_colors': {'orange': 0.96531875}, 'line_colors': {}}
+9.png:
+{'dominant_colors': {'orange': 0.96545625}, 'line_colors': {}}
+11.png:
+{'dominant_colors': {'orange': 0.96530625}, 'line_colors': {}}
+13.png:
+{'dominant_colors': {'orange': 0.96526875}, 'line_colors': {}}
+15.png:
+{'dominant_colors': {'orange': 0.94145}, 'line_colors': {}}
+19.png:
+{'dominant_colors': {'orange': 0.945175}, 'line_colors': {}}
+21.png:
+{'dominant_colors': {'orange': 0.965375}, 'line_colors': {}}
+23.png:
+{'dominant_colors': {'orange': 0.9447375}, 'line_colors': {}}
+25.png:
+{'dominant_colors': {'orange': 0.9453125}, 'line_colors': {}}
+27.png:
+{'dominant_colors': {'orange': 0.96533125}, 'line_colors': {}}
+29.png:
+{'dominant_colors': {'orange': 0.9653125}, 'line_colors': {'purple_1': 0.517825, 'pink': 0.0587125}}
+31.png:
+{'dominant_colors': {'purple_1': 0.46745625, 'orange': 0.42143125}, 'line_colors': {'purple_1': 0.22400625}}
+33.png:
+{'dominant_colors': {'purple_1': 0.41384375, 'orange': 0.45568125}, 'line_colors': {}}
+35.png:
+{'dominant_colors': {'orange': 0.48193125, 'purple_1': 0.43073125}, 'line_colors': {}}
+37.png:
+{'dominant_colors': {'orange': 0.48193125, 'purple_1': 0.43073125}, 'line_colors': {}}
+39.png:
+{'dominant_colors': {'orange': 0.943475}, 'line_colors': {}}
+41.png:
+{'dominant_colors': {'orange': 0.94376875}, 'line_colors': {}}
+43.png:
+{'dominant_colors': {'orange': 0.95099375}, 'line_colors': {}}
+45.png:
+{'dominant_colors': {'orange': 0.94531875}, 'line_colors': {}}
+47.png:
+{'dominant_colors': {'orange': 0.96468125}, 'line_colors': {'purple_1': 0.496475, 'red_flower': 0.0833125}}
+49.png:
+{'dominant_colors': {'orange': 0.40449375}, 'line_colors': {'purple_1': 0.2522875}}
+51.png:
+{'dominant_colors': {'orange': 0.40449375}, 'line_colors': {'purple_1': 0.2522875}}

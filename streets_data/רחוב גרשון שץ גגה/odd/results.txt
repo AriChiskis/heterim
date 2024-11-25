@@ -1,0 +1,49 @@
+
+Results for Image Processing:
+----------------------------------
+1.png:
+{'dominant_colors': {'purple_3': 0.632425, 'shiny_pink': 0.08866875}, 'line_colors': {}}
+3.png:
+{'dominant_colors': {'purple_3': 0.9690625, 'shiny_pink': 0.02339375}, 'line_colors': {}}
+5.png:
+{'dominant_colors': {'purple_3': 0.882475, 'shiny_pink': 0.09795}, 'line_colors': {}}
+5א.png:
+{'dominant_colors': {'purple_3': 0.732825, 'shiny_pink': 0.22279375}, 'line_colors': {}}
+7.png:
+{'dominant_colors': {'purple_3': 0.74478125, 'shiny_pink': 0.2126625}, 'line_colors': {}}
+9.png:
+{'dominant_colors': {'purple_3': 0.501175, 'shiny_pink': 0.2142875}, 'line_colors': {}}
+11.png:
+{'dominant_colors': {'pink': 0.9401}, 'line_colors': {}}
+13.png:
+{'dominant_colors': {'pink': 0.966225}, 'line_colors': {}}
+15.png:
+{'dominant_colors': {'pink': 0.972525}, 'line_colors': {}}
+17.png:
+{'dominant_colors': {'pink': 0.97283125}, 'line_colors': {}}
+19.png:
+{'dominant_colors': {'pink': 0.96518125}, 'line_colors': {}}
+21.png:
+{'dominant_colors': {'pink': 0.9712}, 'line_colors': {}}
+23.png:
+{'dominant_colors': {'pink': 0.9449375}, 'line_colors': {}}
+25.png:
+{'dominant_colors': {'pink': 0.9480625}, 'line_colors': {}}
+27.png:
+{'dominant_colors': {'pink': 0.9652375}, 'line_colors': {}}
+29.png:
+{'dominant_colors': {'pink': 0.96426875}, 'line_colors': {}}
+31.png:
+{'dominant_colors': {'pink': 0.96534375}, 'line_colors': {}}
+33.png:
+{'dominant_colors': {'pink': 0.9651875}, 'line_colors': {}}
+35.png:
+{'dominant_colors': {'pink': 0.945925}, 'line_colors': {}}
+37.png:
+{'dominant_colors': {'pink': 0.943975}, 'line_colors': {}}
+41.png:
+{'dominant_colors': {'pink': 0.909775}, 'line_colors': {}}
+43.png:
+{'dominant_colors': {'pink': 0.67903125}, 'line_colors': {}}
+43א.png:
+{'dominant_colors': {'pink': 0.67903125}, 'line_colors': {}}

@@ -1,0 +1,37 @@
+
+Results for Image Processing:
+----------------------------------
+1:
+{'dominant_colors': {'orange': 0.82410625}, 'line_colors': {}}
+1א:
+{'dominant_colors': {'orange': 0.87325}, 'line_colors': {}}
+1ב:
+{'dominant_colors': {'orange': 0.792225}, 'line_colors': {}}
+3:
+{'dominant_colors': {'orange': 0.909725}, 'line_colors': {}}
+3א:
+{'dominant_colors': {'orange': 0.89445}, 'line_colors': {}}
+5:
+{'dominant_colors': {'orange': 0.919375}, 'line_colors': {}}
+5א:
+{'dominant_colors': {'orange': 0.94899375}, 'line_colors': {}}
+7:
+{'dominant_colors': {'orange': 0.89494375}, 'line_colors': {}}
+9:
+{'dominant_colors': {'orange': 0.90374375}, 'line_colors': {}}
+11:
+{'dominant_colors': {'orange': 0.86026875}, 'line_colors': {}}
+15:
+{'dominant_colors': {'orange': 0.91323125}, 'line_colors': {}}
+15א:
+{'dominant_colors': {'orange': 0.5630625}, 'line_colors': {'purple_1': 0.22708125, 'pink': 0.1409375, 'red_flower': 0.17595625}}
+15ב:
+{'dominant_colors': {'orange': 0.89011875}, 'line_colors': {'purple_1': 0.223175, 'pink': 0.10173125, 'red_flower': 0.14031875}}
+15ג:
+{'dominant_colors': {'orange': 0.91890625}, 'line_colors': {}}
+19:
+{'dominant_colors': {'orange': 0.91890625}, 'line_colors': {}}
+21א:
+{'dominant_colors': {'orange': 1.0}, 'line_colors': {}}
+21ב:
+{'dominant_colors': {'orange': 1.0}, 'line_colors': {}}

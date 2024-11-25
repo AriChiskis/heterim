@@ -1,0 +1,23 @@
+
+Results for Image Processing:
+----------------------------------
+21.png:
+{'dominant_colors': {'park_green': 0.88335}, 'line_colors': {}}
+25.png:
+{'dominant_colors': {'park_green': 0.88335}, 'line_colors': {}}
+69.png:
+{'dominant_colors': {'park_green': 1.0}, 'line_colors': {}}
+71.png:
+{'dominant_colors': {'park_green': 1.0}, 'line_colors': {}}
+71א.png:
+{'dominant_colors': {'park_green': 1.0}, 'line_colors': {}}
+73.png:
+{'dominant_colors': {'park_green': 1.0}, 'line_colors': {}}
+73א.png:
+{'dominant_colors': {'park_green': 1.0}, 'line_colors': {}}
+73ב.png:
+{'dominant_colors': {'park_green': 1.0}, 'line_colors': {}}
+73ג.png:
+{'dominant_colors': {'park_green': 1.0}, 'line_colors': {}}
+75.png:
+{'dominant_colors': {'park_green': 1.0}, 'line_colors': {}}

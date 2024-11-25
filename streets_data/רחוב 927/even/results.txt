@@ -1,0 +1,23 @@
+
+Results for Image Processing:
+----------------------------------
+2.png:
+{'dominant_colors': {'banana_yellow': 0.931225}, 'line_colors': {}}
+4.png:
+{'dominant_colors': {'banana_yellow': 0.90128125}, 'line_colors': {}}
+6.png:
+{'dominant_colors': {'banana_yellow': 0.93551875}, 'line_colors': {}}
+8.png:
+{'dominant_colors': {'banana_yellow': 0.97115625}, 'line_colors': {}}
+10.png:
+{'dominant_colors': {'banana_yellow': 0.9463}, 'line_colors': {}}
+12.png:
+{'dominant_colors': {'banana_yellow': 0.9346375}, 'line_colors': {}}
+14.png:
+{'dominant_colors': {'banana_yellow': 0.91510625}, 'line_colors': {}}
+16.png:
+{'dominant_colors': {'banana_yellow': 0.92246875}, 'line_colors': {}}
+16א.png:
+{'dominant_colors': {'banana_yellow': 0.94088125}, 'line_colors': {}}
+18.png:
+{'dominant_colors': {'banana_yellow': 0.95184375}, 'line_colors': {}}

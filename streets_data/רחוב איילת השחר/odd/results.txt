@@ -1,0 +1,11 @@
+
+Results for Image Processing:
+----------------------------------
+1.png:
+{'dominant_colors': {'pink': 0.948375}, 'line_colors': {}}
+3.png:
+{'dominant_colors': {'pink': 0.9655}, 'line_colors': {}}
+5.png:
+{'dominant_colors': {'pink': 0.96533125}, 'line_colors': {}}
+7.png:
+{'dominant_colors': {'pink': 0.9459875}, 'line_colors': {}}
