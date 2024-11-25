@@ -3,4 +3,4 @@
 env/                 # Ignore virtual environment directory, if you named it 'env'
 .venv/               # Ignore virtual environment directory, if you named it '.venv'
 __pycache__/         # Ignore Python compiled bytecode cache
-heterim/
+heiterim/heiterim/
