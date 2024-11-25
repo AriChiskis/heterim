@@ -19,8 +19,8 @@ from test import test_street , test_random_streets
 
 STREET_NAME = 0
 RANDOM = 1
-#driver = webdriver.Chrome()
-STREET_NAME = "רחוב חנקין"
+
+STREET_NAME ="choose your street"
 NUM_OF_STREETS = 2
 DESICION = STREET_NAME
 
