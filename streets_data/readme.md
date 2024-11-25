@@ -1,4 +1,4 @@
-# Project Documentation
+# Street data directory explanation and decumentation
 
 Here is all the data of the streets that have been scanned. For every street that has been scanned, there is a folder under its name with the following details:
 
